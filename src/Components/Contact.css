@@ -1,0 +1,33 @@
+.contact-section h1, .contact-section h2 {
+    padding: 10px;
+    color: #9b1801;
+    font-size: 56px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.contact-info p {
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.contact-info a {
+    color: rgb(7, 104, 250);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-info a:hover {
+    transform: scale(1.2);
+}
+
+.icon {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-info a:hover .icon {
+    transform: scale(1.2);
+}
