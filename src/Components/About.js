@@ -41,9 +41,9 @@ return (
                     <li>Address: Regina, SK, Canada</li>
                     <li><a href="mailto:feras.aljoudi@gmail.com">feras.aljoudi@gmail.com</a></li>
                     <li>Nationality: Arab</li>
-                    <li><a href="https://ferasaljoudi.github.io/FerasResume/" target="_blank" rel="noopener noreferrer">React Resume</a></li>
+                    <li><a href="https://ferasaljoudi.github.io/FerasResume/" target="_blank" rel="noopener noreferrer">Resume (Initial version)</a></li>
                     <li>Spoken Languages: English, Arabic</li>
-                    <li><a href="https://github.com/ferasaljoudi" target="_blank" rel="noopener noreferrer">Vue Resume</a></li>
+                    <li><a href="https://resume.aljoudi.ca" target="_blank" rel="noopener noreferrer" title="My Resume">Resume (Updated version)</a></li>
                 </ul>
             </div>
         </div>

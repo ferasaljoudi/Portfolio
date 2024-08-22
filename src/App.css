@@ -28,6 +28,7 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  font-size: 24px;
 }
 
 nav ul li a.active {
