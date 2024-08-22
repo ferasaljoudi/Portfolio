@@ -56,8 +56,7 @@ section {
   position: relative;
 }
 
-
-.about-section, .projects-section {
+.about-section {
   min-height: 30vh;
   text-align: center;
   background-color: #222;
@@ -65,7 +64,22 @@ section {
   overflow-y: hidden;
 }
 
+.projects-section {
+  min-height: 30vh;
+  text-align: center;
+  background-color: #222;
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+
 .resume-section, .contact-section {
   min-height: 30vh;
   text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 25px;
+  color: #961a04;
+  font-size: 56px;
 }
