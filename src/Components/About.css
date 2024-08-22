@@ -13,6 +13,7 @@
     justify-content: center;
     flex-direction: row;
     padding: 20px;
+    gap: 20px;
   }
   
   .about-image {
@@ -30,18 +31,17 @@
   
   .about-details {
     text-align: left;
-    max-width: 600px;
+    width: 50%;
   }
   
   .about-details h3 {
     color: #e74c3c;
-    margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 30px;
   }
   
   .about-details p {
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
   }
   
@@ -55,14 +55,14 @@
   
   .about-info li {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     align-items: center;
   }
 
   .about-info li a {
     color: white;
-    font-size: 16px;
+    font-size: 20px;
   }
   
   .about-info li::before {
@@ -71,5 +71,5 @@
     font-weight: bold;
     display: inline-block;
     width: 1em;
-    margin-left: -1em;
+    margin-left: 0em;
   }
