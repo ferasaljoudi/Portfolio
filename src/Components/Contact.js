@@ -7,7 +7,7 @@ import './Contact.css';
 const Contact = () => {
   return (
     <section id="contact" className="contact-section">
-      <h2>Contact</h2>
+      <h1>Contact</h1>
       <div className="contact-info">
         <p>
           <a href="https://www.google.com/maps/place/Regina,+SK,+Canada" target="_blank" rel="noopener noreferrer">
