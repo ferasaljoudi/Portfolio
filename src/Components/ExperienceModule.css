@@ -47,6 +47,8 @@
     flex: 3;
     transition: opacity 0.4s ease;
     text-align: left;
+    font-size: large;
+    line-height: 25px;
 }
 
 .date-range {
@@ -60,12 +62,12 @@
     margin-bottom: 10px;
 }
 
-.technologies {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.technologies-used {
+    margin: 10px 0;
+    text-align: left;
 }
 
-.technologies li {
-    margin-bottom: 5px;
+.technologies-used strong {
+    font-weight: bold;
 }
+

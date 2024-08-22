@@ -24,11 +24,9 @@ const ExperienceModule = ({ experiences }) => {
         <div className="details">
             <p className="date-range">{experiences[activeIndex].dateRange}</p>
             <p className="description">{experiences[activeIndex].description}</p>
-            <ul className="technologies">
-            {experiences[activeIndex].technologies.map((tech, techIndex) => (
-                <li key={techIndex}>+ {tech}</li>
-            ))}
-            </ul>
+            <p className="technologies-used">
+                <strong>Skills and Tools Used:</strong> {experiences[activeIndex].technologies.join(', ').replace(/, ([^,]*)$/, ' and $1')}
+            </p>
         </div>
         </div>
     );
