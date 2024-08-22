@@ -36,7 +36,6 @@ nav ul li a.active {
   font-weight: bold;
 }
 
-
 section {
   display: flex;
   flex-direction: column;
@@ -73,7 +72,7 @@ section {
   overflow-y: hidden;
 }
 
-.resume-section, .contact-section {
+.experience-section, .contact-section {
   min-height: 30vh;
   text-align: center;
 }
