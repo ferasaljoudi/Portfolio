@@ -50,7 +50,7 @@ section {
   align-items: center;
   justify-content: space-between;
   min-height: 50vh;
-  background-color: #111;
+  background-color: #000000;
   padding-right: 0;
   padding-bottom: 0;
   color: #fff;
@@ -76,6 +76,7 @@ section {
 .experience-section, .contact-section {
   min-height: 30vh;
   text-align: center;
+  background-color: #000000;
 }
 
 h1 {

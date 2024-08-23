@@ -37,5 +37,5 @@
   max-width: 90%;
   max-height: 90%;
   object-fit: cover;
-  filter: blur(1px) brightness(0.6);
+  filter: brightness(0.4);
 }

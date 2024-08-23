@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './About.css';
-import FerasAljoudi from '../Assets/FerasAljoudi.jpg';
+import FerasAljoudi from '../Assets/FerasAljoudi2.jpg';
 
 const About = () => {
     const [transform, setTransform] = useState('none');
