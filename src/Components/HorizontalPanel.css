@@ -160,3 +160,26 @@
     transform: scale(0.97);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.39);
 }
+
+@media (max-width: 1100px) {
+    .project-name {
+        font-size: 22px;
+    }
+    .project-description {
+        font-size: 16px;
+    }
+    .icon-link {
+        font-size: 22px;
+    }
+    .project {
+        min-width: 300px;
+        height: 350px;
+        border-radius: 10px;
+        padding: 20px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .by-date {
+        min-width: 300px;
+    }
+}

@@ -40,3 +40,15 @@
     transform: translateX(-100%);
 }
 }
+
+@media (max-width: 1100px) {
+    .ticker-container {
+        height: 60px;
+    }
+    .ticker-text {
+        font-size: 20px;
+    }
+    .ticker-text a{
+        font-size: 20px;
+    }
+}
