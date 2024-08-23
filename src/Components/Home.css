@@ -3,26 +3,26 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 70px;
+  padding-left: 90px;
   color: white;
+  animation: slideInTop 1.5s ease-out;
 }
 
 .home-section h1 {
   margin: 0;
   padding: 10px 0px 10px 0px;
-  font-size: 56px;
+  font-size: 48px;
   color: white;
 }
 
 .download-btn {
   background-color: #e74c3c;
-  font-size: 25px;
+  font-size: 23px;
   color: #fff;
   border: none;
   padding: 15px 20px;
   cursor: pointer;
   margin-top: 20px;
-  min-width: 130px;
   max-width: 200px;
 }
 
@@ -31,11 +31,24 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  animation: slideInTop 1.5s ease-out;
 }
 
 .home-image {
-  max-width: 90%;
-  max-height: 90%;
+  padding-right: 100px;
+  width: auto;
+  max-height: 95vh;
   object-fit: cover;
   filter: brightness(0.4);
+}
+
+@keyframes slideInTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

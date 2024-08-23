@@ -5,10 +5,6 @@
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: 12px;
-    padding-bottom: 12px;
-    margin-top: 12px;
-    padding-top: 12px;
 }
 
 .projects-wrapper {
@@ -134,7 +130,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .scroll-btn {

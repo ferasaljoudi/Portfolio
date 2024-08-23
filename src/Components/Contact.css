@@ -1,3 +1,11 @@
+.contact-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info {
+    padding-bottom: 18px;
+}
 
 .contact-info p {
     margin-bottom: 8px;
