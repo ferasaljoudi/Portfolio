@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import InfoTicker from './InfoTicker';
-import HomeImage from '../Assets/HomeImage.jpg';
+import HomeImage from '../Assets/FerasAljoudi2.jpg';
 
 const Home = () => {
   const handleDownload = () => {
