@@ -30,7 +30,7 @@
 .company-name::after {
     content: '';
     position: absolute;
-    left: -17px;
+    left: -18px;
     bottom: -21px;
     height: 3.5px;
     width: 0;
@@ -39,8 +39,8 @@
 }
 
 .company-name.active::after {
-    width: calc(100% + 17px);
-    left: -17px;
+    width: calc(100% + 20px);
+    left: -18px;
 }
 
 .details {
