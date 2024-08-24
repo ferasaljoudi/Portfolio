@@ -183,3 +183,42 @@
         min-width: 300px;
     }
 }
+
+@media (max-width: 480px) {
+    .project-name {
+        font-size: 16px;
+    }
+    .project-description {
+        font-size: 14px;
+    }
+    .project-description a {
+        font-size: 11px;
+    }
+    .icon-link {
+        font-size: 18px;
+    }
+    .project {
+        min-width: 250px;
+        height: 315px;
+        border-radius: 10px;
+        padding: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .project.active {
+        padding: 10px;
+        padding-top: 10px;
+    }
+    .project.active .project-name {
+        margin-bottom: 10px;
+    }
+    .project.active .project-description {
+        opacity: 1;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .by-date {
+        min-width: 250px;
+    }
+}

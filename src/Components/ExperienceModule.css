@@ -98,3 +98,69 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 480px) {
+    .experience-module {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .company-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-left: none;
+        border-bottom: 3.5px solid #9b1801;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .company-name {
+        color: #333;
+        font-weight: bold;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+        transition: color 0.3s ease;
+        margin: 8px;
+    }
+    .company-name.active {
+        color: #9b1801;
+    }
+    .company-name.active::after {
+        width: calc(100% + 0px);
+        left: 0px;
+    }
+    .company-name::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0px;
+        height: 3.5px;
+        width: 0;
+        background-color: #9b1801;
+        transition: width 0.7s ease;
+    }
+    .company-name.active::after {
+        width: 100%;
+    }
+    .details {
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .date-range {
+        font-size: 13px;
+    }
+    .description {
+        font-size: 15px;
+    }
+    .technologies-used {
+        font-size: 15px;
+    }
+}
