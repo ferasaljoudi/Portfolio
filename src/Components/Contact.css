@@ -39,3 +39,10 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 480px) {
+    .contact-info p {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+}

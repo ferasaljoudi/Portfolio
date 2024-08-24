@@ -6,7 +6,6 @@
     overflow: hidden;
     position: relative;
 }
-
 .projects-wrapper {
     display: flex;
     gap: 20px;
@@ -18,11 +17,9 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
-
 .projects-wrapper::-webkit-scrollbar {
     display: none;
 }
-
 .project {
     min-width: 350px;
     height: 400px;
@@ -44,7 +41,6 @@
     transition: height 0.3s ease;
     box-sizing: border-box;
 }
-
 .by-date {
     font-size: 50px;
     min-width: 350px;
@@ -59,26 +55,22 @@
     padding-bottom: 40px;
     box-sizing: border-box;
 }
-
 .project.active {
     transform: scale(1.2);
     z-index: 10;
     padding: 20px;
     padding-top: 40px;
 }
-
 .project.active .project-name {
     flex-grow: 0;
     margin-bottom: 20px;
 }
-
 .project.active .project-description {
     opacity: 1;
     margin-top: 10px;
     margin-left: 14px;
     margin-right: 14px;
 }
-
 .project-name {
     font-weight: bold;
     font-size: 26px;
@@ -89,18 +81,15 @@
     align-items: center;
     justify-content: center;
 }
-
 .project-description {
     font-size: 18px;
     opacity: 0;
     transition: opacity 0.3s ease, margin-top 0.3s ease;
     margin-top: 0;
 }
-
 .project-description a {
     color: rgb(66, 146, 250);
 }
-
 .icon-link {
     position: absolute;
     bottom: 20px;
@@ -109,11 +98,9 @@
     font-size: 24px;
     text-decoration: none;
 }
-
 .icon-link:hover {
     color: #e74c3c;
 }
-
 .hover-text {
     position: absolute;
     bottom: 50%;
@@ -125,14 +112,12 @@
     text-align: center;
     font-size: 16px;
 }
-
 .scroll-btn-container {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 60px;
 }
-
 .scroll-btn {
     transform: translateY(-40%);
     background-color: #111;
@@ -150,12 +135,10 @@
     align-items: center;
     justify-content: center;
 }
-
 .scroll-btn:hover {
     background-color: #e74c3c;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
-
 .scroll-btn:active {
     transform: scale(0.97);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.39);
@@ -167,6 +150,9 @@
     }
     .project-description {
         font-size: 16px;
+    }
+    .project-description a {
+        font-size: 14px;
     }
     .icon-link {
         font-size: 22px;

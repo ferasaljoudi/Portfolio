@@ -1,9 +1,33 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './About.css';
 import FerasAljoudi from '../Assets/FerasAljoudi2.jpg';
 
 const About = () => {
+    const [isVisible, setIsVisible] = useState(false);
     const [transform, setTransform] = useState('none');
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                    observer.disconnect();
+                }
+            },
+            { threshold: 0.1 }
+        );
+
+        if (sectionRef.current) {
+            observer.observe(sectionRef.current);
+        }
+
+        return () => {
+            if (sectionRef.current) {
+                observer.unobserve(sectionRef.current);
+            }
+        };
+    }, []);
 
     const handleMouseMove = (e) => {
         const rect = e.target.getBoundingClientRect();
@@ -21,7 +45,11 @@ const About = () => {
     };
 
 return (
-    <section id="about" className="about-section">
+    <section
+            id="about"
+            className={`about-section ${isVisible ? 'animate' : ''}`}
+            ref={sectionRef}
+        >
         <h1>About Me</h1>
         <div className="about-content">
             <div className="about-image">
