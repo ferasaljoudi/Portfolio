@@ -1,10 +1,12 @@
 .about-section {
-  background-color: #111;
+  background-color: #222;
   color: #fff;
   padding: 20px 0;
   text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  min-height: 30vh;
 }
-
 .about-content {
   display: flex;
   align-items: center;
@@ -13,11 +15,16 @@
   padding: 20px;
   gap: 20px;
 }
-
 .about-image {
   perspective: 1000px;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1.8s ease-out, transform 1.8s ease-out;
 }
-
+.animate .about-image {
+  opacity: 1;
+  transform: translateX(0);
+}
 .about-image img {
   width: 400px;
   height: 500px;
@@ -27,22 +34,25 @@
   transform-style: preserve-3d;
   filter: brightness(0.5);
 }
-
 .about-details {
   text-align: left;
   width: 50%;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 1.8s ease-out, transform 1.8s ease-out;
 }
-
+.animate .about-details {
+  opacity: 1;
+  transform: translateX(0);
+}
 .about-details h3 {
   font-size: 30px;
 }
-
 .about-details p {
   margin-bottom: 25px;
   font-size: 20px;
   line-height: 1.6;
 }
-
 .about-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -50,19 +60,16 @@
   list-style: none;
   padding: 0;
 }
-
 .about-info li {
   margin-bottom: 10px;
   font-size: 20px;
   display: flex;
   align-items: center;
 }
-
 .about-info li a {
   color: white;
   font-size: 20px;
 }
-
 .about-info li::before {
   content: '•';
   color: #e74c3c;
@@ -111,6 +118,9 @@
     margin-bottom: 18px;
     font-size: 16px;
     line-height: 1.4;
+  }
+  .about-info {
+    grid-template-columns: 1fr;
   }
   .about-info li {
     margin-bottom: 8px;

@@ -1,9 +1,10 @@
 .experience-section {
     color: #fff;
     padding: 20px;
+    min-height: 30vh;
     text-align: center;
+    background-color: #000000;
 }
-
 .the-module {
     padding-bottom: 15px;
 }

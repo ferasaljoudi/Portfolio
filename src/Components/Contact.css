@@ -1,17 +1,16 @@
 .contact-section {
     padding: 20px 0;
+    min-height: 30vh;
     text-align: center;
+    background-color: #000000;
 }
-
 .contact-info {
     padding-bottom: 18px;
 }
-
 .contact-info p {
     margin-bottom: 8px;
     font-size: 24px;
 }
-
 .contact-info a {
     color: rgb(7, 104, 250);
     text-decoration: none;
@@ -19,16 +18,13 @@
     align-items: center;
     transition: transform 0.3s ease, color 0.3s ease;
 }
-
 .contact-info a:hover {
     transform: scale(1.2);
 }
-
 .icon {
     margin-right: 10px;
     transition: transform 0.3s ease;
 }
-
 .contact-info a:hover .icon {
     transform: scale(1.2);
 }
@@ -37,5 +33,12 @@
     .contact-info p {
         margin-bottom: 8px;
         font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info p {
+        margin-bottom: 8px;
+        font-size: 18px;
     }
 }

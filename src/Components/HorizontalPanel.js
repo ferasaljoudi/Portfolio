@@ -110,13 +110,13 @@ const HorizontalPanel = () => {
                         onClick={() => handleClick(index)}
                     >
                         <div className="project-name">{project.name}</div>
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="icon-link">
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="icon-link" title="View application details">
                             <FaExternalLinkAlt />
                         </a>
                         <div className="project-description">{project.description}</div>
                         {project.hostedLink && (
                             <div className="project-description">
-                                The application is hosted at: <a href={project.hostedLink} target="_blank" rel="noopener noreferrer">{project.hostedLink}</a>
+                                The application is hosted at: <a href={project.hostedLink} target="_blank" rel="noopener noreferrer" title="Visit hosted application">{project.hostedLink}</a>
                             </div>
                         )}
                         <div className="project-description">To view full details press the external link icon.</div>

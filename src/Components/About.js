@@ -1,9 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './About.css';
 import FerasAljoudi from '../Assets/FerasAljoudi2.jpg';
 
 const About = () => {
+    const [isVisible, setIsVisible] = useState(false);
     const [transform, setTransform] = useState('none');
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+        const currentSectionRef = sectionRef.current;
+    
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                    observer.disconnect();
+                }
+            },
+            { threshold: 0.1 }
+        );
+    
+        if (currentSectionRef) {
+            observer.observe(currentSectionRef);
+        }
+    
+        return () => {
+            if (currentSectionRef) {
+                observer.unobserve(currentSectionRef);
+            }
+        };
+    }, []);
+    
 
     const handleMouseMove = (e) => {
         const rect = e.target.getBoundingClientRect();
@@ -21,7 +48,11 @@ const About = () => {
     };
 
 return (
-    <section id="about" className="about-section">
+    <section
+            id="about"
+            className={`about-section ${isVisible ? 'animate' : ''}`}
+            ref={sectionRef}
+        >
         <h1>About Me</h1>
         <div className="about-content">
             <div className="about-image">
@@ -39,10 +70,10 @@ return (
                 <p>Currently, I’m focused on advanced software engineering projects, applying everything I’ve learned and pushing my technical boundaries as I complete my degree. When I’m not coding, you’ll often find me behind a camera, capturing the world with the same attention to detail that I bring to my coding.</p>
                 <ul className="about-info">
                     <li>Address: Regina, SK, Canada</li>
-                    <li><a href="mailto:feras.aljoudi@gmail.com">feras.aljoudi@gmail.com</a></li>
                     <li>Nationality: Arab</li>
-                    <li><a href="https://ferasaljoudi.github.io/FerasResume/" target="_blank" rel="noopener noreferrer">Resume (Initial version)</a></li>
                     <li>Spoken Languages: English, Arabic</li>
+                    <li><a href="mailto:feras.aljoudi@gmail.com">feras.aljoudi@gmail.com</a></li>
+                    <li><a href="https://ferasaljoudi.github.io/FerasResume/" target="_blank" rel="noopener noreferrer" title="My Resume">Resume (Initial version)</a></li>
                     <li><a href="https://resume.aljoudi.ca" target="_blank" rel="noopener noreferrer" title="My Resume">Resume (Updated version)</a></li>
                 </ul>
             </div>

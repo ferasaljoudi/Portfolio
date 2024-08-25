@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 95vh;
+  height: 85vh;
   background-color: #000000;
   padding-right: 0;
   padding-bottom: 0;
@@ -50,7 +50,7 @@
 .home-image {
   padding-right: 100px;
   width: auto;
-  max-height: 95vh;
+  max-height: 85vh;
   object-fit: cover;
   filter: brightness(0.4);
 }
@@ -97,7 +97,7 @@
     justify-content: center;
     text-align: center;
     grid-row: 1;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 0;
     padding-bottom: 0;
   }

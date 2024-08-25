@@ -1,4 +1,8 @@
 .projects-section {
     padding: 20px 0;
+    min-height: 30vh;
     text-align: center;
+    background-color: #222;
+    overflow-x: visible;
+    overflow-y: hidden;
 }
