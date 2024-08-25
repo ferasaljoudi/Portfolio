@@ -75,4 +75,10 @@ The portfolio website serves as an interactive and visually appealing platform t
 </div>
 <br>
 
-loading...
+- <b>Interactive User Interface:</b> Built with React to provide a dynamic and responsive user experience.
+- <b>Responsive Design:</b> Optimized for different screen sizes to ensure usability across devices.
+- <b>Continuous Scrolling Info Ticker:</b> Displays key information in a ticker that continuously scrolls across the bottom of the home section.
+- <b>Progressive Text Display:</b> Descriptions and technologies are animated with smooth motion, enhancing user engagement.
+- <b>Dockerized Application:</b> Dockerized setup for easy deployment and scalability across different environments.
+- <b>Automated Deployment:</b> A `deploy.sh` script automates the building, tagging, and pushing of Docker images to Docker Hub.
+- <b>Hosted on Raspberry Pi 5:</b> The website is hosted on an ARM-based hardware `(Raspberry Pi 5)`.
