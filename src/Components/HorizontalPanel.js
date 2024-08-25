@@ -25,7 +25,7 @@ const projects = [
         name: "FIA-Local-Service-Finder",
         link: "https://github.com/ferasaljoudi/FIA-Local-Service-Finder",
         description: "Collaboratively created a platform that boosts local business visibility by allowing users to list and request services, addressing competition and SEO challenges.",
-        hostedLink: "https://fia.csproject.org/",
+        // hostedLink: "https://fia.csproject.org/",
     },
     {
         name: "Aljoudi Parking System",
@@ -36,7 +36,7 @@ const projects = [
         name: "Driver Drowsiness Detection",
         link: "https://github.com/ferasaljoudi/DriverDrowsinessDetection",
         description: "Developed a system that enhances road safety by detecting driver fatigue through image analysis using machine learning and deep learning techniques.",
-        hostedLink: "#",
+        // hostedLink: "#",
     },
     {
         name: "Vue Resume",
