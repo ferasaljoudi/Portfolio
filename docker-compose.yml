@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  myportfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ferasaljoudi/myportfolio:latest
+    platform: linux/arm64
+    ports:
+      - "3000:3000"
