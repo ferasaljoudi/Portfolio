@@ -207,4 +207,38 @@
     .by-date {
         min-width: 250px;
     }
+    .scroll-btn {
+        width: 60px;
+        height: 60px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 370px) {
+    .project-name {
+        font-size: 15px;
+    }
+    .project-description {
+        font-size: 13px;
+    }
+    .project-description a {
+        font-size: 10px;
+    }
+    .icon-link {
+        font-size: 16px;
+    }
+    .project {
+        min-width: 220px;
+        height: 315px;
+        border-radius: 10px;
+        padding: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .project.active .project-name {
+        margin-bottom: 10px;
+    }
+    .by-date {
+        min-width: 220px;
+    }
 }
