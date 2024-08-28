@@ -7,6 +7,8 @@
 
 This project is a personal portfolio website showcasing my professional experience, skills, and projects, built using React and hosted on a Raspberry Pi 5.
 
+<a href="https://aljoudi.ca"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Resumes/portfolio.svg" alt="My Portfolio"></a>
+
 </div>
 
 <br>
