@@ -5,6 +5,12 @@ import './HorizontalPanel.css';
 
 const projects = [
     {
+        name: "Graduation Project",
+        link: "https://github.com/ferasaljoudi/Capstone",
+        description: "A real-time driver drowsiness detection system using machine learning and Raspberry Pi to enhance road safety through offline eye closure monitoring and alerts.",
+        // hostedLink: "https://.....",
+    },
+    {
         name: "Movie Theatre",
         link: "https://github.com/ferasaljoudi/MovieTheatre",
         description: "Developed a movie subscription platform with user authentication, movie details via API, and admin management capabilities.",
