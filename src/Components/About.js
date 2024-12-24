@@ -73,8 +73,8 @@ return (
                     <li>Nationality: Arab</li>
                     <li>Spoken Languages: English, Arabic</li>
                     <li><a href="mailto:feras.aljoudi@gmail.com">feras.aljoudi@gmail.com</a></li>
-                    <li><a href="https://ferasaljoudi.github.io/FerasResume/" target="_blank" rel="noopener noreferrer" title="My Resume">Resume (Initial version)</a></li>
-                    <li><a href="https://resume.aljoudi.ca" target="_blank" rel="noopener noreferrer" title="My Resume">Resume (Updated version)</a></li>
+                    <li><a href="https://github.com/ferasaljoudi" target="_blank" rel="noopener noreferrer" title="My Github">GitHub</a></li>
+                    <li><a href="https://resume.aljoudi.ca" target="_blank" rel="noopener noreferrer" title="My Resume">Virtual Resume</a></li>
                 </ul>
             </div>
         </div>

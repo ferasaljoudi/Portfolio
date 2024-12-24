@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMapMarkerAlt, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt, faEnvelope, faIdCard } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Contact.css';
 
@@ -20,9 +20,8 @@ const Contact = () => {
           </a>
         </p>
         <p>
-          <a href="tel:+13062091033" title="My phone">
-            <FontAwesomeIcon icon={faPhone} className="icon" /> 306-209-1033
-          </a>
+          <a href="https://resume.aljoudi.ca" target="_blank" rel="noopener noreferrer" title="My Resume">
+            <FontAwesomeIcon icon={faIdCard} className="icon" />Virtual Resume</a>
         </p>
         <p>
           <a href="https://ca.linkedin.com/in/feras-aljoudi-539727242" target="_blank" rel="noopener noreferrer" title="My LinkedIn">
@@ -30,8 +29,8 @@ const Contact = () => {
           </a>
         </p>
         <p>
-          <a href="https://github.com/ferasaljoudi" target="_blank" rel="noopener noreferrer" title="My Github">
-            <FontAwesomeIcon icon={faGithub} className="icon" /> Github
+          <a href="https://github.com/ferasaljoudi" target="_blank" rel="noopener noreferrer" title="My GitHub">
+            <FontAwesomeIcon icon={faGithub} className="icon" /> GitHub
           </a>
         </p>
       </div>
