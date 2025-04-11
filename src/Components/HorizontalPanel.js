@@ -7,8 +7,8 @@ const projects = [
     {
         name: "Graduation Project",
         link: "https://github.com/ferasaljoudi/Capstone",
-        description: "A real-time driver drowsiness detection system using machine learning and Raspberry Pi to enhance road safety through offline eye closure monitoring and alerts.",
-        // hostedLink: "https://.....",
+        description: "Developed a real-time driver drowsiness detection system using Raspberry Pi, MediaPipe, and OpenCV, featuring progressive alerts based on drowsiness signs.",
+        hostedLink: "https://ifsdriveralert.aljoudi.ca/",
     },
     {
         name: "Movie Theatre",
